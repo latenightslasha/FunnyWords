@@ -996,4 +996,3 @@ while wait(0.1)do
 
 	counter = counter + 0.01
 end
-end)
