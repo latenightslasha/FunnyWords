@@ -1,0 +1,1461 @@
+	-- Objects
+
+	local FencingGui = Instance.new("ScreenGui")
+	local MainFrame = Instance.new("Frame")
+	local Fencing = Instance.new("TextLabel")
+	local GearsButton = Instance.new("TextButton")
+	local SculpturesButton = Instance.new("TextButton")
+	local ScriptsButton = Instance.new("TextButton")
+	local CreditButton = Instance.new("TextButton")
+	local GearsFrame = Instance.new("Frame")
+	local Gears = Instance.new("TextLabel")
+	local Gun = Instance.new("TextButton")
+	local Spraypaint = Instance.new("TextButton")
+	local Giraffe = Instance.new("TextButton")
+	local HotDog = Instance.new("TextButton")
+	local Close = Instance.new("TextButton")
+	local SculpturesFrame = Instance.new("Frame")
+	local Sculptures = Instance.new("TextLabel")
+	local Parabola = Instance.new("TextButton")
+	local Spiral = Instance.new("TextButton")
+	local Obby = Instance.new("TextButton")
+	local Urchin = Instance.new("TextButton")
+	local Close_2 = Instance.new("TextButton")
+	local ScriptsFrame = Instance.new("Frame")
+	local Scripts = Instance.new("TextLabel")
+	local KillAll = Instance.new("TextButton")
+	local Close_3 = Instance.new("TextButton")
+	local BrickSpam = Instance.new("TextButton")
+	local God = Instance.new("TextButton")
+	local CreditFrame = Instance.new("Frame")
+	local Credit = Instance.new("TextLabel")
+	local Close_4 = Instance.new("TextButton")
+	local Info = Instance.new("TextLabel")
+
+	-- Properties
+
+	FencingGui.Name = "Fencing Gui"
+	FencingGui.Parent = game.CoreGui
+	FencingGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+	MainFrame.Active = true
+	MainFrame.Draggable = true
+	MainFrame.Name = "MainFrame"
+	MainFrame.Parent = FencingGui
+	MainFrame.BackgroundColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	MainFrame.BorderColor3 = Color3.new(0, 0, 0)
+	MainFrame.Position = UDim2.new(0.131805152, 0, 0.388012618, 0)
+	MainFrame.Size = UDim2.new(0, 250, 0, 300)
+
+	Fencing.Name = "Fencing"
+	Fencing.Parent = MainFrame
+	Fencing.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	Fencing.BorderColor3 = Color3.new(0, 0, 0)
+	Fencing.Size = UDim2.new(0, 250, 0, 50)
+	Fencing.Font = Enum.Font.Code
+	Fencing.Text = "Fencing"
+	Fencing.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	Fencing.TextScaled = true
+	Fencing.TextSize = 14
+	Fencing.TextWrapped = true
+
+	GearsButton.Name = "GearsButton"
+	GearsButton.Parent = MainFrame
+	GearsButton.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	GearsButton.BorderColor3 = Color3.new(0, 0, 0)
+	GearsButton.Position = UDim2.new(0, 0, 0.216666669, 0)
+	GearsButton.Size = UDim2.new(0, 250, 0, 50)
+	GearsButton.Font = Enum.Font.Code
+	GearsButton.Text = "Gears      ?"
+	GearsButton.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	GearsButton.TextScaled = true
+	GearsButton.TextSize = 14
+	GearsButton.TextWrapped = true
+	GearsButton.TextXAlignment = Enum.TextXAlignment.Left
+
+	SculpturesButton.Name = "SculpturesButton"
+	SculpturesButton.Parent = MainFrame
+	SculpturesButton.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	SculpturesButton.BorderColor3 = Color3.new(0, 0, 0)
+	SculpturesButton.Position = UDim2.new(0, 0, 0.383333325, 0)
+	SculpturesButton.Size = UDim2.new(0, 250, 0, 50)
+	SculpturesButton.Font = Enum.Font.Code
+	SculpturesButton.Text = "Sculptures ?"
+	SculpturesButton.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	SculpturesButton.TextScaled = true
+	SculpturesButton.TextSize = 14
+	SculpturesButton.TextWrapped = true
+	SculpturesButton.TextXAlignment = Enum.TextXAlignment.Left
+
+	ScriptsButton.Name = "ScriptsButton"
+	ScriptsButton.Parent = MainFrame
+	ScriptsButton.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	ScriptsButton.BorderColor3 = Color3.new(0, 0, 0)
+	ScriptsButton.Position = UDim2.new(0, 0, 0.550000012, 0)
+	ScriptsButton.Size = UDim2.new(0, 250, 0, 50)
+	ScriptsButton.Font = Enum.Font.Code
+	ScriptsButton.Text = "Scripts    ?"
+	ScriptsButton.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	ScriptsButton.TextScaled = true
+	ScriptsButton.TextSize = 14
+	ScriptsButton.TextWrapped = true
+	ScriptsButton.TextXAlignment = Enum.TextXAlignment.Left
+
+	CreditButton.Name = "CreditButton"
+	CreditButton.Parent = MainFrame
+	CreditButton.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	CreditButton.BorderColor3 = Color3.new(0, 0, 0)
+	CreditButton.Position = UDim2.new(0, 0, 0.716666698, 0)
+	CreditButton.Size = UDim2.new(0, 250, 0, 50)
+	CreditButton.Font = Enum.Font.Code
+	CreditButton.Text = "Credit     ?"
+	CreditButton.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	CreditButton.TextScaled = true
+	CreditButton.TextSize = 14
+	CreditButton.TextWrapped = true
+	CreditButton.TextXAlignment = Enum.TextXAlignment.Left
+
+	GearsFrame.Name = "GearsFrame"
+	GearsFrame.Parent = MainFrame
+	GearsFrame.BackgroundColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	GearsFrame.BorderColor3 = Color3.new(0, 0, 0)
+	GearsFrame.Position = UDim2.new(1.03980517, 0, 0, 0)
+	GearsFrame.Size = UDim2.new(0, 250, 0, 265)
+	GearsFrame.Visible = false
+
+	Gears.Name = "Gears"
+	Gears.Parent = GearsFrame
+	Gears.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	Gears.BorderColor3 = Color3.new(0, 0, 0)
+	Gears.Size = UDim2.new(0, 250, 0, 50)
+	Gears.Font = Enum.Font.Code
+	Gears.Text = "Gears"
+	Gears.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	Gears.TextScaled = true
+	Gears.TextSize = 14
+	Gears.TextWrapped = true
+
+	Gun.Name = "Gun"
+	Gun.Parent = GearsFrame
+	Gun.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	Gun.BorderColor3 = Color3.new(0, 0, 0)
+	Gun.Position = UDim2.new(0, 0, 0.269697011, 0)
+	Gun.Size = UDim2.new(0, 120, 0, 36)
+	Gun.Font = Enum.Font.Code
+	Gun.Text = "Gun"
+	Gun.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	Gun.TextSize = 24
+	Gun.TextWrapped = true
+
+	Spraypaint.Name = "Spraypaint"
+	Spraypaint.Parent = GearsFrame
+	Spraypaint.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	Spraypaint.BorderColor3 = Color3.new(0, 0, 0)
+	Spraypaint.Position = UDim2.new(0.519999981, 0, 0.269697011, 0)
+	Spraypaint.Size = UDim2.new(0, 120, 0, 36)
+	Spraypaint.Font = Enum.Font.Code
+	Spraypaint.Text = "Spraypaint"
+	Spraypaint.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	Spraypaint.TextSize = 24
+	Spraypaint.TextWrapped = true
+
+	Giraffe.Name = "Giraffe"
+	Giraffe.Parent = GearsFrame
+	Giraffe.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	Giraffe.BorderColor3 = Color3.new(0, 0, 0)
+	Giraffe.Position = UDim2.new(0.519999981, 0, 0.459090948, 0)
+	Giraffe.Size = UDim2.new(0, 120, 0, 36)
+	Giraffe.Font = Enum.Font.Code
+	Giraffe.Text = "Giraffe"
+	Giraffe.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	Giraffe.TextSize = 24
+	Giraffe.TextWrapped = true
+
+	HotDog.Name = "Hot Dog"
+	HotDog.Parent = GearsFrame
+	HotDog.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	HotDog.BorderColor3 = Color3.new(0, 0, 0)
+	HotDog.Position = UDim2.new(0, 0, 0.459090948, 0)
+	HotDog.Size = UDim2.new(0, 120, 0, 36)
+	HotDog.Font = Enum.Font.Code
+	HotDog.Text = "Hot Dog"
+	HotDog.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	HotDog.TextSize = 24
+	HotDog.TextWrapped = true
+
+	Close.Name = "Close"
+	Close.Parent = GearsFrame
+	Close.BackgroundColor3 = Color3.new(0.784314, 0, 0)
+	Close.BorderColor3 = Color3.new(0, 0, 0)
+	Close.Position = UDim2.new(0, 0, 0.810606062, 0)
+	Close.Size = UDim2.new(0, 50, 0, 50)
+	Close.Font = Enum.Font.Gotham
+	Close.Text = "X"
+	Close.TextColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	Close.TextScaled = true
+	Close.TextSize = 24
+	Close.TextWrapped = true
+
+	SculpturesFrame.Name = "SculpturesFrame"
+	SculpturesFrame.Parent = MainFrame
+	SculpturesFrame.BackgroundColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	SculpturesFrame.BorderColor3 = Color3.new(0, 0, 0)
+	SculpturesFrame.Position = UDim2.new(1.03980517, 0, 0, 0)
+	SculpturesFrame.Size = UDim2.new(0, 250, 0, 265)
+	SculpturesFrame.Visible = false
+
+	Sculptures.Name = "Sculptures"
+	Sculptures.Parent = SculpturesFrame
+	Sculptures.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	Sculptures.BorderColor3 = Color3.new(0, 0, 0)
+	Sculptures.Size = UDim2.new(0, 250, 0, 50)
+	Sculptures.Font = Enum.Font.Code
+	Sculptures.Text = "Sculptures"
+	Sculptures.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	Sculptures.TextScaled = true
+	Sculptures.TextSize = 14
+	Sculptures.TextWrapped = true
+
+	Parabola.Name = "Parabola"
+	Parabola.Parent = SculpturesFrame
+	Parabola.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	Parabola.BorderColor3 = Color3.new(0, 0, 0)
+	Parabola.Position = UDim2.new(0, 0, 0.269697011, 0)
+	Parabola.Size = UDim2.new(0, 120, 0, 36)
+	Parabola.Font = Enum.Font.Code
+	Parabola.Text = "Parabola"
+	Parabola.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	Parabola.TextSize = 24
+	Parabola.TextWrapped = true
+
+	Spiral.Name = "Spiral"
+	Spiral.Parent = SculpturesFrame
+	Spiral.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	Spiral.BorderColor3 = Color3.new(0, 0, 0)
+	Spiral.Position = UDim2.new(0.519999981, 0, 0.269697011, 0)
+	Spiral.Size = UDim2.new(0, 120, 0, 36)
+	Spiral.Font = Enum.Font.Code
+	Spiral.Text = "Spiral"
+	Spiral.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	Spiral.TextSize = 24
+	Spiral.TextWrapped = true
+
+	Obby.Name = "Obby"
+	Obby.Parent = SculpturesFrame
+	Obby.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	Obby.BorderColor3 = Color3.new(0, 0, 0)
+	Obby.Position = UDim2.new(0.519999981, 0, 0.459090948, 0)
+	Obby.Size = UDim2.new(0, 120, 0, 36)
+	Obby.Font = Enum.Font.Code
+	Obby.Text = "Obby"
+	Obby.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	Obby.TextSize = 24
+	Obby.TextWrapped = true
+
+	Urchin.Name = "Urchin"
+	Urchin.Parent = SculpturesFrame
+	Urchin.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	Urchin.BorderColor3 = Color3.new(0, 0, 0)
+	Urchin.Position = UDim2.new(0, 0, 0.459090948, 0)
+	Urchin.Size = UDim2.new(0, 120, 0, 36)
+	Urchin.Font = Enum.Font.Code
+	Urchin.Text = "Urchin"
+	Urchin.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	Urchin.TextSize = 24
+	Urchin.TextWrapped = true
+
+	Close_2.Name = "Close"
+	Close_2.Parent = SculpturesFrame
+	Close_2.BackgroundColor3 = Color3.new(0.784314, 0, 0)
+	Close_2.BorderColor3 = Color3.new(0, 0, 0)
+	Close_2.Position = UDim2.new(0, 0, 0.810606062, 0)
+	Close_2.Size = UDim2.new(0, 50, 0, 50)
+	Close_2.Font = Enum.Font.Gotham
+	Close_2.Text = "X"
+	Close_2.TextColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	Close_2.TextScaled = true
+	Close_2.TextSize = 24
+	Close_2.TextWrapped = true
+
+	ScriptsFrame.Name = "ScriptsFrame"
+	ScriptsFrame.Parent = MainFrame
+	ScriptsFrame.BackgroundColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	ScriptsFrame.BorderColor3 = Color3.new(0, 0, 0)
+	ScriptsFrame.Position = UDim2.new(1.03980517, 0, 0, 0)
+	ScriptsFrame.Size = UDim2.new(0, 250, 0, 265)
+	ScriptsFrame.Visible = false
+
+	Scripts.Name = "Scripts"
+	Scripts.Parent = ScriptsFrame
+	Scripts.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	Scripts.BorderColor3 = Color3.new(0, 0, 0)
+	Scripts.Size = UDim2.new(0, 250, 0, 50)
+	Scripts.Font = Enum.Font.Code
+	Scripts.Text = "Scripts"
+	Scripts.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	Scripts.TextScaled = true
+	Scripts.TextSize = 14
+	Scripts.TextWrapped = true
+
+	KillAll.Name = "Kill All"
+	KillAll.Parent = ScriptsFrame
+	KillAll.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	KillAll.BorderColor3 = Color3.new(0, 0, 0)
+	KillAll.Position = UDim2.new(0, 0, 0.26969707, 0)
+	KillAll.Size = UDim2.new(0, 250, 0, 36)
+	KillAll.Font = Enum.Font.Code
+	KillAll.Text = "Kill All (Mats)"
+	KillAll.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	KillAll.TextSize = 24
+	KillAll.TextWrapped = true
+
+	Close_3.Name = "Close"
+	Close_3.Parent = ScriptsFrame
+	Close_3.BackgroundColor3 = Color3.new(0.784314, 0, 0)
+	Close_3.BorderColor3 = Color3.new(0, 0, 0)
+	Close_3.Position = UDim2.new(0, 0, 0.810606062, 0)
+	Close_3.Size = UDim2.new(0, 50, 0, 50)
+	Close_3.Font = Enum.Font.Gotham
+	Close_3.Text = "X"
+	Close_3.TextColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	Close_3.TextScaled = true
+	Close_3.TextSize = 24
+	Close_3.TextWrapped = true
+
+	BrickSpam.Name = "Brick Spam"
+	BrickSpam.Parent = ScriptsFrame
+	BrickSpam.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	BrickSpam.BorderColor3 = Color3.new(0, 0, 0)
+	BrickSpam.Position = UDim2.new(0, 0, 0.458376318, 0)
+	BrickSpam.Size = UDim2.new(0, 250, 0, 36)
+	BrickSpam.Font = Enum.Font.Code
+	BrickSpam.Text = "Brick Spam"
+	BrickSpam.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	BrickSpam.TextSize = 24
+	BrickSpam.TextWrapped = true
+
+	God.Name = "God"
+	God.Parent = ScriptsFrame
+	God.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	God.BorderColor3 = Color3.new(0, 0, 0)
+	God.Position = UDim2.new(0, 0, 0.647055566, 0)
+	God.Size = UDim2.new(0, 250, 0, 36)
+	God.Font = Enum.Font.Code
+	God.Text = "God"
+	God.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	God.TextSize = 24
+	God.TextWrapped = true
+
+	CreditFrame.Name = "CreditFrame"
+	CreditFrame.Parent = MainFrame
+	CreditFrame.BackgroundColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	CreditFrame.BorderColor3 = Color3.new(0, 0, 0)
+	CreditFrame.Position = UDim2.new(1.03980517, 0, 0, 0)
+	CreditFrame.Size = UDim2.new(0, 250, 0, 265)
+	CreditFrame.Visible = false
+
+	Credit.Name = "Credit"
+	Credit.Parent = CreditFrame
+	Credit.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	Credit.BorderColor3 = Color3.new(0, 0, 0)
+	Credit.Size = UDim2.new(0, 250, 0, 50)
+	Credit.Font = Enum.Font.Code
+	Credit.Text = "Credit"
+	Credit.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	Credit.TextScaled = true
+	Credit.TextSize = 14
+	Credit.TextWrapped = true
+
+	Close_4.Name = "Close"
+	Close_4.Parent = CreditFrame
+	Close_4.BackgroundColor3 = Color3.new(0.784314, 0, 0)
+	Close_4.BorderColor3 = Color3.new(0, 0, 0)
+	Close_4.Position = UDim2.new(0, 0, 0.810606062, 0)
+	Close_4.Size = UDim2.new(0, 50, 0, 50)
+	Close_4.Font = Enum.Font.Gotham
+	Close_4.Text = "X"
+	Close_4.TextColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	Close_4.TextScaled = true
+	Close_4.TextSize = 24
+	Close_4.TextWrapped = true
+
+	Info.Name = "Info"
+	Info.Parent = CreditFrame
+	Info.BackgroundColor3 = Color3.new(0.784314, 0.784314, 0.784314)
+	Info.BorderColor3 = Color3.new(0, 0, 0)
+	Info.BorderSizePixel = 0
+	Info.Position = UDim2.new(0, 0, 0.241509438, 0)
+	Info.Size = UDim2.new(0, 250, 0, 69)
+	Info.Font = Enum.Font.Code
+	Info.Text = "Gunna#5015"
+	Info.TextColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+	Info.TextSize = 16
+	Info.TextWrapped = true
+	Info.TextXAlignment = Enum.TextXAlignment.Left
+	Info.TextYAlignment = Enum.TextYAlignment.Top
+
+	GearsButton.MouseButton1Click:Connect(function()
+		GearsFrame.Visible = true
+	end)
+
+	CreditButton.MouseButton1Click:Connect(function()
+		CreditFrame.Visible = true
+	end)
+
+	SculpturesButton.MouseButton1Click:Connect(function()
+		SculpturesFrame.Visible = true
+	end)
+
+	ScriptsButton.MouseButton1Click:Connect(function()
+		ScriptsFrame.Visible = true
+	end)
+
+	Gun.MouseButton1Click:Connect(function()
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+			Title = "Remember";
+			Text  = "This can only kill on mats!";
+			Duration = 5;
+		})
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CustomPhysicalProperties = PhysicalProperties.new(math.huge,math.huge,math.huge,math.huge,math.huge)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = .5
+		local LocalPlayer = game:GetService("Players").LocalPlayer
+		local spray = workspace.Handle
+		local savecframe = spray.CFrame
+		LocalPlayer.Character.Humanoid:UnequipTools()
+		local currentamount = #LocalPlayer.Backpack:GetChildren()
+		spray.CanCollide = false
+		spray.Transparency = 1
+		local anim = Instance.new("Animation")
+		anim.AnimationId = "rbxassetid://188632011"
+		local loadanim = LocalPlayer.Character.Humanoid:LoadAnimation(anim)
+		loadanim.Looped = true
+		loadanim:Play()
+		loadanim:AdjustSpeed(4)
+		for _, tool in pairs(LocalPlayer.Backpack:GetChildren()) do
+			tool.Parent = LocalPlayer
+		end
+		repeat
+			repeat
+				spray.CFrame = LocalPlayer.Character.Torso.CFrame
+				LocalPlayer.Character.Humanoid:MoveTo(game.Players.LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,1))
+				game:GetService("RunService").Stepped:wait()
+			until LocalPlayer.Character:FindFirstChild("Spray") ~= nil
+			LocalPlayer.Character:FindFirstChild("Spray").Parent = LocalPlayer
+		until #LocalPlayer:GetChildren() - 4 - currentamount >= 2
+		loadanim:Stop()
+		anim:Destroy()
+		for _, tool in pairs(LocalPlayer:GetChildren()) do
+			if tool:IsA("Tool") then
+				tool.Parent = LocalPlayer.Backpack
+			end
+		end
+		spray.CFrame = savecframe
+		spray.CanCollide = true
+		spray.Transparency = 0
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+		for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+			if v:IsA("Tool") then
+				v.Parent = game.Players.LocalPlayer.Character
+			end
+		end
+		for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+			if v:IsA("Tool") then
+				v.Handle.Mesh:Destroy()
+			end
+		end
+		game.Players.LocalPlayer.Character.Humanoid:UnequipTools()
+		wait(.2)
+		game.Players.LocalPlayer.Backpack:FindFirstChild("Spray").Name = "GunPart1"
+		game.Players.LocalPlayer.Backpack:FindFirstChild("Spray").Name = "GunPart2"
+		game.Players.LocalPlayer.Backpack:FindFirstChild("Foil").Name = "GunBullet"
+		game.Players.LocalPlayer.Backpack:FindFirstChild("GunPart1").LocalScript:Destroy()
+		game.Players.LocalPlayer.Backpack:FindFirstChild("GunPart2").LocalScript:Destroy()
+		game.Players.LocalPlayer.Backpack:FindFirstChild("GunPart1").Grip = CFrame.new(Vector3.new(0,0,0)) * CFrame.Angles(math.rad(0),0,0)
+		game.Players.LocalPlayer.Backpack:FindFirstChild("GunPart2").Grip = CFrame.new(Vector3.new(0,-1,-.5)) * CFrame.Angles(math.rad(90),0,0)
+		game.Players.LocalPlayer.Backpack:FindFirstChild("GunBullet").Grip = CFrame.new(Vector3.new(0,20,0)) * CFrame.Angles(math.rad(0),0,0)
+		game.Players.LocalPlayer.Backpack:FindFirstChild("GunBullet").Parent = game.Players.LocalPlayer.Character
+		game.Players.LocalPlayer.Backpack:FindFirstChild("GunPart2").Parent = game.Players.LocalPlayer.Character
+		game.Players.LocalPlayer.Backpack:FindFirstChild("GunPart1").Parent = game.Players.LocalPlayer.Character
+		game.Players.LocalPlayer.Character:FindFirstChild("GunPart1").Activated:Connect(function()
+			game.Players.LocalPlayer.Character:FindFirstChild("GunBullet"):Activate()
+			game.Players.LocalPlayer.Character:FindFirstChild("GunBullet").Grip = CFrame.new(Vector3.new(0,-.5,2)) * CFrame.Angles(math.rad(0),0,0)
+			for i=1,30 do
+				game.Players.LocalPlayer.Character:FindFirstChild("GunBullet").Grip = game.Players.LocalPlayer.Character:FindFirstChild("GunBullet").Grip + Vector3.new(0,0,3)
+				game.Players.LocalPlayer.Character.Humanoid:UnequipTools()
+				game.Players.LocalPlayer.Backpack:FindFirstChild("GunBullet").Parent = game.Players.LocalPlayer.Character
+				game.Players.LocalPlayer.Backpack:FindFirstChild("GunPart2").Parent = game.Players.LocalPlayer.Character
+				game.Players.LocalPlayer.Backpack:FindFirstChild("GunPart1").Parent = game.Players.LocalPlayer.Character
+				game.Players.LocalPlayer.Character.Head.Splash.TimePosition = .375
+				game.Players.LocalPlayer.Character.Head.Splash:Play()
+				game:GetService("RunService").Stepped:wait()
+			end
+			game.Players.LocalPlayer.Character.Head.Splash:Stop()
+			game.Players.LocalPlayer.Character:FindFirstChild("GunBullet").Grip = CFrame.new(Vector3.new(0,20,0)) * CFrame.Angles(math.rad(0),0,0)
+		end)
+	end)
+
+	Spraypaint.MouseButton1Click:Connect(function()
+		x = 188
+		y = 3.5
+		z = 106
+		pos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		plr = game.Players.LocalPlayer.Character
+		workspace.CurrentCamera.CameraType = Enum.CameraType.Scriptable
+		plr.HumanoidRootPart.CFrame = CFrame.new(x,y,z)
+		for i=1,math.random(2,3) do
+			game:GetService("RunService").RenderStepped:Wait()
+		end
+		plr.HumanoidRootPart.CFrame = pos
+		workspace.CurrentCamera.CameraType = Enum.CameraType.Track
+	end)
+
+	HotDog.MouseButton1Click:Connect(function()
+		x = 188
+		y = 3.5
+		z = 106
+		pos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		plr = game.Players.LocalPlayer.Character
+		plrb = game.Players.LocalPlayer.Backpack
+		_ = wait
+		G = game
+		workspace.CurrentCamera.CameraType = Enum.CameraType.Scriptable
+		plr.HumanoidRootPart.CFrame = CFrame.new(x,y,z)
+		_(math.random(.01,.02))
+		plr.HumanoidRootPart.CFrame = pos
+		workspace.CurrentCamera.CameraType = Enum.CameraType.Track
+		repeat game:GetService("RunService").Stepped:wait()
+		until plr:FindFirstChild("Spray")
+		plr:FindFirstChild("Spray").Handle.Mesh:Destroy()
+		plr:FindFirstChild("Spray").TextureId = "rbxassetid://38964017"
+		plr.Humanoid:UnequipTools()
+		plrb:FindFirstChild("Spray").LocalScript:Remove()
+		game:GetService("RunService").Stepped:wait()
+		game.Players.LocalPlayer.Backpack:FindFirstChild("Spray").Name = "Hot Dog"
+		game:GetService("RunService").Stepped:wait()
+		game.Players.LocalPlayer.Backpack:FindFirstChild("Hot Dog").GripForward = Vector3.new(0, -0.996, 0.085)
+		game.Players.LocalPlayer.Backpack:FindFirstChild("Hot Dog").GripPos = Vector3.new(0.622, -0.787, -1.377)
+		game.Players.LocalPlayer.Backpack:FindFirstChild("Hot Dog").GripRight = Vector3.new(-0, -0.085, -0.996)
+		game.Players.LocalPlayer.Backpack:FindFirstChild("Hot Dog").GripUp = Vector3.new(-1, -0, 0)
+		game.Players.LocalPlayer.Backpack:FindFirstChild("Hot Dog").GripForward = Vector3.new(-0.964, 0, -0.267)
+		game.Players.LocalPlayer.Backpack:FindFirstChild("Hot Dog").GripPos = Vector3.new(0.2, -0.25, 0.03)
+		game.Players.LocalPlayer.Backpack:FindFirstChild("Hot Dog").GripRight = Vector3.new(0.267, 0, -0.964)
+		game.Players.LocalPlayer.Backpack:FindFirstChild("Hot Dog").GripUp = Vector3.new(0, 0, 0)
+		game:GetService("RunService").Stepped:wait()
+		game.Players.LocalPlayer.Backpack:FindFirstChild("Hot Dog").Activated:connect(function()
+			game.Players.LocalPlayer.Character:FindFirstChild("Hot Dog").Handle.Sound.Playing = true
+			game:GetService("RunService").Stepped:wait()
+			plr.Humanoid:UnequipTools()
+			game.Players.LocalPlayer.Backpack:FindFirstChild("Hot Dog").GripForward = Vector3.new(0, -0.996, 0.085)
+			game.Players.LocalPlayer.Backpack:FindFirstChild("Hot Dog").GripPos = Vector3.new(0.622, -0.787, -1.377)
+			game.Players.LocalPlayer.Backpack:FindFirstChild("Hot Dog").GripRight = Vector3.new(-0, -0.085, -0.996)
+			game.Players.LocalPlayer.Backpack:FindFirstChild("Hot Dog").GripUp = Vector3.new(-1, -0, 0)
+			game.Players.LocalPlayer.Backpack:FindFirstChild("Hot Dog").Parent = game.Players.LocalPlayer.Character
+			wait(.2)
+			game.Players.LocalPlayer.Character:FindFirstChild("Hot Dog").Handle.Sound.Playing = false
+			wait(.4)
+			plr.Humanoid:UnequipTools()
+			game.Players.LocalPlayer.Backpack:FindFirstChild("Hot Dog").GripForward = Vector3.new(-0.964, 0, -0.267)
+			game.Players.LocalPlayer.Backpack:FindFirstChild("Hot Dog").GripPos = Vector3.new(0.2, -0.25, 0.03)
+			game.Players.LocalPlayer.Backpack:FindFirstChild("Hot Dog").GripRight = Vector3.new(0.267, 0, -0.964)
+			game.Players.LocalPlayer.Backpack:FindFirstChild("Hot Dog").GripUp = Vector3.new(0, 0, 0)
+			game.Players.LocalPlayer.Backpack:FindFirstChild("Hot Dog").Parent = game.Players.LocalPlayer.Character
+		end)
+		G:GetService("StarterGui"):SetCore("SendNotification", {
+			Title = "Hot Dog Gained";
+			Text  = "                  Press 2";
+			Icon = "rbxassetid://38964017";
+			Duration = 2;
+		})
+		ClientSound = Instance.new("Sound")
+		ClientSound.Name = "Sound"
+		ClientSound.SoundId = "http://www.roblox.com/asset/?id=138084646"
+		ClientSound.Volume = .5
+		ClientSound.Parent = game.Workspace
+		ClientSound:Play()
+		print(game.Players.LocalPlayer.Character.Name.." has gained a Hot Dog.")
+	end)
+
+	Giraffe.MouseButton1Click:Connect(function()
+		for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+			if v:IsA("Tool") and v.Name == "Spray" then
+				v:Destroy()
+			end
+		end
+		wait()
+		for i, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+			if v:IsA("Tool") and v.Name == "Spray" then
+				v:Destroy()
+			end
+		end
+
+		wait()
+
+		workspace.Handle.CanCollide = false
+		workspace.Handle.CFrame = game.Players.LocalPlayer.Character.Torso.CFrame
+		wait(0.1)
+		workspace.Handle.Position = Vector3.new(187.619995, 0.690000057, 106.145004)
+		workspace.Handle.CanCollide = false
+
+		game.Players.LocalPlayer.Character:WaitForChild("Spray")
+
+		game.Players.LocalPlayer.Character.Spray.Parent = game.Players.LocalPlayer.Backpack
+		wait(0.1)
+		game.Players.LocalPlayer.Backpack.Spray.Parent = game.Players.LocalPlayer.Character
+		wait(0.1)
+		game.Players.LocalPlayer.Character.Spray.Parent = game.Players.LocalPlayer
+		wait()
+		workspace.Handle.CanCollide = false
+		workspace.Handle.CFrame = game.Players.LocalPlayer.Character.Torso.CFrame
+		wait(0.1)
+		workspace.Handle.Position = Vector3.new(187.619995, 0.690000057, 106.145004)
+		workspace.Handle.CanCollide = false
+
+		game.Players.LocalPlayer.Character:WaitForChild("Spray")
+
+		game.Players.LocalPlayer.Character.Spray.Parent = game.Players.LocalPlayer.Backpack
+		wait(0.1)
+		game.Players.LocalPlayer.Backpack.Spray.Parent = game.Players.LocalPlayer
+		wait(0.1)
+		game.Players.LocalPlayer.Spray.Parent = game.Players.LocalPlayer.Backpack
+		game.Players.LocalPlayer.Spray.Parent = game.Players.LocalPlayer.Backpack
+		wait(0.1)
+		game.Players.LocalPlayer.Backpack.Spray.Handle.Mesh:Destroy()
+		game.Players.LocalPlayer.Backpack.Spray.GripForward = Vector3.new(-1, -0.014, 0.011)
+		game.Players.LocalPlayer.Backpack.Spray.GripPos     = Vector3.new(-1.551, -0.989, -1.486)
+		game.Players.LocalPlayer.Backpack.Spray.GripRight   = Vector3.new(-0.011, 0.004, -1)
+		game.Players.LocalPlayer.Backpack.Spray.GripUp      = Vector3.new(-0.014, 1, 0.004)
+		wait(0.1)
+		game.Players.LocalPlayer.Backpack.Spray.Parent = game.Players.LocalPlayer.Character
+		wait(0.1)
+		game.Players.LocalPlayer.Backpack.Spray.Handle.Mesh:Destroy()
+		game.Players.LocalPlayer.Backpack.Spray.GripForward = Vector3.new(-1, -0.014, 0.011)
+		game.Players.LocalPlayer.Backpack.Spray.GripPos     = Vector3.new(-1.551, -2.325, -1.486)
+		game.Players.LocalPlayer.Backpack.Spray.GripRight   = Vector3.new(-0.011, 0.004, -1)
+		game.Players.LocalPlayer.Backpack.Spray.GripUp      = Vector3.new(-0.014, 1, 0.004)
+		wait(0.1)
+
+		game.Players.LocalPlayer.Backpack.Spray.Parent = game.Players.LocalPlayer.Character
+		wait(0.1)
+		AnimationId = "121572214"
+		local Anim = Instance.new("Animation")
+		Anim.AnimationId = "rbxassetid://"..AnimationId
+		local k = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(Anim)
+		k:Play(0)
+		k:AdjustSpeed(1)
+	end)
+
+	Obby.MouseButton1Click:Connect(function()
+		if game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool") then
+			for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+				if v:IsA("Tool") then
+					v.Parent = game.Players.LocalPlayer
+				end
+			end
+		elseif game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool") then
+			for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+				if v:IsA("Tool") then
+					v.Parent = game.Players.LocalPlayer
+				end
+			end
+		end
+		local toolamount = 228
+		local LocalPlayer = game:GetService("Players").LocalPlayer
+		local runservice = game:GetService("RunService")
+		local characters = {}
+		LocalPlayer.Character:FindFirstChild("Humanoid"):UnequipTools()
+		local currentamount = #LocalPlayer.Backpack:GetChildren()
+		LocalPlayer.Character.Archivable = true
+		local tempchar = LocalPlayer.Character:Clone()
+		tempchar.Parent = workspace
+		local savepos = LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
+		local stepped = runservice.Stepped:Connect(function()
+			workspace.CurrentCamera.CameraSubject = tempchar:FindFirstChild("Humanoid")
+			for _, tool in pairs(LocalPlayer.Backpack:GetChildren()) do
+				if tool:IsA("Tool") then
+					tool.Parent = LocalPlayer
+				end
+			end
+			LocalPlayer.Character:ClearAllChildren()
+			local char = Instance.new("Model", workspace)
+			table.insert(characters, char)
+			Instance.new("Humanoid", char)
+			LocalPlayer.Character = char
+			repeat runservice.Stepped:Wait() until LocalPlayer.Character ~= nil
+		end)
+		repeat runservice.Stepped:Wait() until #LocalPlayer:GetChildren() - 4 - currentamount >= toolamount
+		stepped:Disconnect()
+		repeat runservice.Stepped:Wait() until LocalPlayer.Character:FindFirstChild("HumanoidRootPart") ~= nil
+		for _, char in pairs(characters) do
+			char:Destroy()
+		end
+		for _, tool in pairs(LocalPlayer:GetChildren()) do
+			if tool:IsA("Tool") then
+				tool.Parent = LocalPlayer.Backpack
+			end
+		end
+		LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = savepos
+		tempchar:Destroy()
+		local amount = 56
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = .5
+		local LocalPlayer = game:GetService("Players").LocalPlayer
+		local spray = workspace.Handle
+		local savecframe = spray.CFrame
+		LocalPlayer.Character.Humanoid:UnequipTools()
+		local currentamount = #LocalPlayer.Backpack:GetChildren()
+		spray.CanCollide = false
+		spray.Transparency = 1
+		local anim = Instance.new("Animation")
+		anim.AnimationId = "rbxassetid://188632011"
+		local loadanim = LocalPlayer.Character.Humanoid:LoadAnimation(anim)
+		loadanim.Looped = true
+		loadanim:Play()
+		loadanim:AdjustSpeed(4)
+		for _, tool in pairs(LocalPlayer.Backpack:GetChildren()) do
+			tool.Parent = LocalPlayer
+		end
+		repeat
+			repeat
+				spray.CFrame = LocalPlayer.Character.Torso.CFrame
+				LocalPlayer.Character.Humanoid:MoveTo(game.Players.LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,1))
+				game:GetService("RunService").Stepped:wait()
+			until LocalPlayer.Character:FindFirstChild("Spray") ~= nil
+			LocalPlayer.Character:FindFirstChild("Spray").Parent = LocalPlayer
+		until #LocalPlayer:GetChildren() - 4 - currentamount >= amount
+		loadanim:Stop()
+		anim:Destroy()
+		for _, tool in pairs(LocalPlayer:GetChildren()) do
+			if tool:IsA("Tool") then
+				tool.Parent = LocalPlayer.Backpack
+			end
+		end
+		spray.CFrame = savecframe
+		spray.CanCollide = true
+		spray.Transparency = 0
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+		local LocalPlayer = game:GetService("Players").LocalPlayer
+		local hathandle = LocalPlayer.Character.Humanoid:GetAccessories()[1].Handle
+		hathandle.Name = "Right Arm"
+		LocalPlayer.Character:FindFirstChild("Right Arm"):Destroy()
+		hathandle.Parent = LocalPlayer.Character
+		game:GetService("RunService").Stepped:wait()
+		for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+			if v:IsA("Tool") then
+				v.Parent = game.Players.LocalPlayer.Character
+			end
+		end
+		game:GetService("RunService").Stepped:wait()
+		for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+			if v:IsA("Tool") then
+				v.Handle.Mesh:Remove()
+				v.Parent = game.Players.LocalPlayer.Backpack
+			end
+		end
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-246.443,3.374,59.87) * CFrame.Angles(math.rad(0), math.pi*-1.5 , 0)
+		local function Character()
+			game.Players.LocalPlayer.Backpack:FindFirstChild("Foil").Parent = game.Players.LocalPlayer.Character
+		end
+		game:GetService("RunService").Stepped:wait()
+		----------Start----------
+		for v=1,3 do
+			for i=1,25 do
+				game.Players.LocalPlayer.Backpack:FindFirstChild("Foil").Grip = CFrame.new(Vector3.new(9+1*i,-4.75,-10+5*v)) * CFrame.Angles(math.rad(90),0,math.pi*-1.5)
+				Character()
+			end
+		end
+		----------Stage 1----------
+		for v=1,5 do
+			for i=1,2 do
+				game.Players.LocalPlayer.Backpack:FindFirstChild("Foil").Grip = CFrame.new(Vector3.new((30+7*v+1*i),-4.75,0)) * CFrame.Angles(math.rad(90),0,math.pi*-1.5)
+				Character()
+			end
+		end
+		for v=1,2 do
+			for i=1,12 do
+				game.Players.LocalPlayer.Backpack:FindFirstChild("Foil").Grip = CFrame.new(Vector3.new(70+1*i,-4.75,-7.5+5*v)) * CFrame.Angles(math.rad(90),0,math.pi*-1.5)
+				Character()
+			end
+		end
+		----------Stage 2----------
+		for i=1,10 do
+			game.Players.LocalPlayer.Backpack:FindFirstChild("Foil").Grip = CFrame.new(Vector3.new((79+7*i),-4.75,0)) * CFrame.Angles(math.rad(90),0,math.pi*-1.5)
+			Character()
+		end
+		for v=1,2 do
+			for i=1,12 do
+				game.Players.LocalPlayer.Backpack:FindFirstChild("Foil").Grip = CFrame.new(Vector3.new(139+1*i,-4.75,-7.5+5*v)) * CFrame.Angles(math.rad(90),0,math.pi*-1.5)
+				Character()
+			end
+		end
+		----------Stage 3----------
+		for i=1,10 do
+			game.Players.LocalPlayer.Backpack:FindFirstChild("Foil").Grip = CFrame.new(Vector3.new((149+7*i),-6.75+2*i,0)) * CFrame.Angles(math.rad(90),0,math.pi*-1.5)
+			Character()
+		end
+		----------Ending----------
+		for v=1,3 do
+			for i=1,25 do
+				game.Players.LocalPlayer.Backpack:FindFirstChild("Foil").Grip = CFrame.new(Vector3.new(224+1*i,13.25,-10+5*v)) * CFrame.Angles(math.rad(90),0,math.pi*-1.5)
+				Character()
+			end
+		end
+		----------Pole----------
+		local function Character2()
+			game.Players.LocalPlayer.Backpack:FindFirstChild("Spray").Parent = game.Players.LocalPlayer.Character
+		end
+		for i=1,8 do
+			game.Players.LocalPlayer.Backpack:FindFirstChild("Spray").Grip = CFrame.new(Vector3.new(8,-4.8+1.7*i,10)) * CFrame.Angles(math.rad(90),0,math.pi*-1.5)
+			Character2()
+		end
+		for i=1,40 do
+			game.Players.LocalPlayer.Backpack:FindFirstChild("Spray").Grip = CFrame.new(Vector3.new(8,8.8,10-0.5*i)) * CFrame.Angles(math.rad(90),0,math.pi*-1.5)
+			Character2()
+		end
+		for i=1,8 do
+			game.Players.LocalPlayer.Backpack:FindFirstChild("Spray").Grip = CFrame.new(Vector3.new(8,-4.8+1.7*i,-10)) * CFrame.Angles(math.rad(90),0,math.pi*-1.5)
+			Character2()
+		end
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 0
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 0
+		repeat
+			h = game.Players.LocalPlayer.Character.Humanoid
+			tracks = h:GetPlayingAnimationTracks()
+			for _,x in pairs(tracks)
+			do x:Stop()
+			end
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-246.443,3.374,59.87) * CFrame.Angles(math.rad(0), math.pi*-1.5 , 0)
+			game:GetService("RunService").Stepped:wait()
+		until game.Players.LocalPlayer.Character.Humanoid.Health == 0
+		repeat game:GetService("RunService").Stepped:wait()
+		until game.Players.LocalPlayer.Character.Humanoid.Health == 0
+		for i=1,toolamount do
+			if game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool") then
+				game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool").Parent = game.Players.LocalPlayer
+			elseif game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool") then
+				game.Players.LocalPlayer.Character:FindFirstChildOfClass("Tool").Parent = game.Players.LocalPlayer
+			end
+		end
+	end)
+
+	Parabola.MouseButton1Click:Connect(function()
+		local LocalPlayer = game:GetService("Players").LocalPlayer
+		local runservice = game:GetService("RunService")
+		local characters = {}
+		LocalPlayer.Character:FindFirstChild("Humanoid"):UnequipTools()
+		local currentamount = #LocalPlayer.Backpack:GetChildren()
+		LocalPlayer.Character.Archivable = true
+		local tempchar = LocalPlayer.Character:Clone()
+		tempchar.Parent = workspace
+		local savepos = LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
+		local stepped = runservice.Stepped:Connect(function()
+			workspace.CurrentCamera.CameraSubject = tempchar:FindFirstChild("Humanoid")
+			for _, tool in pairs(LocalPlayer.Backpack:GetChildren()) do
+				if tool:IsA("Tool") then
+					tool.Parent = LocalPlayer
+				end
+			end
+			LocalPlayer.Character:ClearAllChildren()
+			local char = Instance.new("Model", workspace)
+			table.insert(characters, char)
+			Instance.new("Humanoid", char)
+			LocalPlayer.Character = char
+			repeat runservice.Stepped:Wait() until LocalPlayer.Character ~= nil
+		end)
+		repeat runservice.Stepped:Wait() until #LocalPlayer:GetChildren() - 4 - currentamount >= 80 - 1
+		stepped:Disconnect()
+		repeat runservice.Stepped:Wait() until LocalPlayer.Character:FindFirstChild("HumanoidRootPart") ~= nil
+		for _, char in pairs(characters) do
+			char:Destroy()
+		end
+		for _, tool in pairs(LocalPlayer:GetChildren()) do
+			if tool:IsA("Tool") then
+				tool.Parent = LocalPlayer.Backpack
+			end
+		end
+		LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = savepos
+		tempchar:Destroy()
+
+		for i=1,80 do
+			game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool").Grip = CFrame.new(Vector3.new(0,.1*i,-2)) * CFrame.Angles(math.rad(90+1*i),math.rad(5+1*i),math.rad(5+1*i))
+			game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool").Parent = game.Players.LocalPlayer.Character
+		end
+	end)
+
+	Spiral.MouseButton1Click:Connect(function()
+		local LocalPlayer = game:GetService("Players").LocalPlayer
+		local runservice = game:GetService("RunService")
+		local characters = {}
+		LocalPlayer.Character:FindFirstChild("Humanoid"):UnequipTools()
+		local currentamount = #LocalPlayer.Backpack:GetChildren()
+		LocalPlayer.Character.Archivable = true
+		local tempchar = LocalPlayer.Character:Clone()
+		tempchar.Parent = workspace
+		local savepos = LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
+		local stepped = runservice.Stepped:Connect(function()
+			workspace.CurrentCamera.CameraSubject = tempchar:FindFirstChild("Humanoid")
+			for _, tool in pairs(LocalPlayer.Backpack:GetChildren()) do
+				if tool:IsA("Tool") then
+					tool.Parent = LocalPlayer
+				end
+			end
+			LocalPlayer.Character:ClearAllChildren()
+			local char = Instance.new("Model", workspace)
+			table.insert(characters, char)
+			Instance.new("Humanoid", char)
+			LocalPlayer.Character = char
+			repeat runservice.Stepped:Wait() until LocalPlayer.Character ~= nil
+		end)
+		repeat runservice.Stepped:Wait() until #LocalPlayer:GetChildren() - 4 - currentamount >= 80 - 1
+		stepped:Disconnect()
+		repeat runservice.Stepped:Wait() until LocalPlayer.Character:FindFirstChild("HumanoidRootPart") ~= nil
+		for _, char in pairs(characters) do
+			char:Destroy()
+		end
+		for _, tool in pairs(LocalPlayer:GetChildren()) do
+			if tool:IsA("Tool") then
+				tool.Parent = LocalPlayer.Backpack
+			end
+		end
+		LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = savepos
+		tempchar:Destroy()
+
+		for i=1,80 do
+			game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool").Grip = CFrame.new(Vector3.new(.5*i,0,-2)) * CFrame.Angles(math.rad(15*i),math.rad(15/2^i),math.rad(6.25+math.sin(1)/i))
+			game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool").Parent = game.Players.LocalPlayer.Character
+		end
+	end)
+
+	Urchin.MouseButton1Click:Connect(function()
+		local LocalPlayer = game:GetService("Players").LocalPlayer
+		local runservice = game:GetService("RunService")
+		local characters = {}
+		LocalPlayer.Character:FindFirstChild("Humanoid"):UnequipTools()
+		local currentamount = #LocalPlayer.Backpack:GetChildren()
+		LocalPlayer.Character.Archivable = true
+		local tempchar = LocalPlayer.Character:Clone()
+		tempchar.Parent = workspace
+		local savepos = LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
+		local stepped = runservice.Stepped:Connect(function()
+			workspace.CurrentCamera.CameraSubject = tempchar:FindFirstChild("Humanoid")
+			for _, tool in pairs(LocalPlayer.Backpack:GetChildren()) do
+				if tool:IsA("Tool") then
+					tool.Parent = LocalPlayer
+				end
+			end
+			LocalPlayer.Character:ClearAllChildren()
+			local char = Instance.new("Model", workspace)
+			table.insert(characters, char)
+			Instance.new("Humanoid", char)
+			LocalPlayer.Character = char
+			repeat runservice.Stepped:Wait() until LocalPlayer.Character ~= nil
+		end)
+		repeat runservice.Stepped:Wait() until #LocalPlayer:GetChildren() - 4 - currentamount >= 80 - 1
+		stepped:Disconnect()
+		repeat runservice.Stepped:Wait() until LocalPlayer.Character:FindFirstChild("HumanoidRootPart") ~= nil
+		for _, char in pairs(characters) do
+			char:Destroy()
+		end
+		for _, tool in pairs(LocalPlayer:GetChildren()) do
+			if tool:IsA("Tool") then
+				tool.Parent = LocalPlayer.Backpack
+			end
+		end
+		LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = savepos
+		tempchar:Destroy()
+
+		for i=1,80 do
+			game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool").Grip = CFrame.new(Vector3.new(0*1^math.sin(1),.5*math.tan(1),-2)) * CFrame.Angles(math.rad(3*i^1.25),math.rad(6*i^2),math.rad(0))
+			game.Players.LocalPlayer.Backpack:FindFirstChildOfClass("Tool").Parent = game.Players.LocalPlayer.Character
+		end
+	end)
+
+	KillAll.MouseButton1Click:Connect(function()
+		pos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		game.Players.LocalPlayer.Character.Humanoid:UnequipTools()
+		game.Players.LocalPlayer.Backpack:FindFirstChild("Foil").Parent = game.Players.LocalPlayer.Character
+		game.Players.LocalPlayer.Character:FindFirstChild("Foil").Handle.Size = Vector3.new(math.huge,math.huge,math.huge)
+		for i=1,25 do
+			game.Players.LocalPlayer.Character:FindFirstChild("Foil"):Activate()
+			game:GetService("RunService").Stepped:Wait()
+		end
+		game.Players.LocalPlayer.Character:FindFirstChild("Foil").Handle.Size = Vector3.new(1,1,4)
+		game.Players.LocalPlayer.Character.Humanoid:UnequipTools()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+	end)
+
+	BrickSpam.MouseButton1Click:Connect(function()
+		game:GetService('RunService').Stepped:connect(function()
+			for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+				if v.Name == "Spray" then
+					if v.Handle.Mesh then
+						v.Handle.Mesh:Destroy()
+					end
+					v.Parent = workspace
+				end
+			end
+		end)
+		local function paint()
+			for i,v in pairs(game.Workspace:GetChildren())do
+				if v.Name == "Handle" then
+					v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+					v.Transparency = 1
+					v.CanCollide = false
+					wait()
+					v.CFrame = game.Players.LocalPlayer.Character["Left Leg"].CFrame
+				end
+			end
+		end
+		local function equip()
+			for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren())do
+				if v.Name == "Spray" then
+					game.Players.LocalPlayer.Character.Humanoid:EquipTool(v)
+				end
+			end
+		end
+		while wait(0.05) do
+			paint()
+			equip()
+		end
+	end)
+
+	God.MouseButton1Click:Connect(function()
+		SaveCFrame = workspace.Button.CFrame
+		workspace.Button.Transparency = 1
+		workspace.Button.CanCollide = false
+		repeat
+			workspace.Button.CFrame = game.Players.LocalPlayer.Character.Torso.CFrame
+			game:GetService("RunService").Heartbeat:Wait()
+		until game.Players.LocalPlayer.Character.Humanoid.Health == 0
+		workspace.Button.CFrame = SaveCFrame
+		workspace.Button.Transparency = 0
+		workspace.Button.CanCollide = true
+	end)
+
+	Close.MouseButton1Click:Connect(function()
+		GearsFrame.Visible = false
+	end)
+
+	Close_2.MouseButton1Click:Connect(function()
+		SculpturesFrame.Visible = false
+	end)
+
+	Close_3.MouseButton1Click:Connect(function()
+		ScriptsFrame.Visible = false
+	end)
+
+	Close_4.MouseButton1Click:Connect(function()
+		CreditFrame.Visible = false
+	end)
+
+	local screenGui = game:GetObjects("rbxassetid://3546404827")[1]
+	local mainFrame = screenGui.Frame
+	local pages = mainFrame.Pages
+	local pageLayout = pages.UIPageLayout
+	local pageScripts = pages.Scripts
+	local interactiveButton = pageScripts.Character.Elements.TextButton
+	local utility = pageScripts.Utility
+	local utilityElements = utility.Elements
+	local pageOptions = pages.Options
+	local titleFrame = mainFrame.Title
+	local toolbar = mainFrame.Toolbar
+
+	screenGui.LocalScript:Destroy()
+	screenGui.Parent = game:GetService("CoreGui")
+	interactiveButton.Parent = nil
+	mainFrame.Visible = true
+
+	gripCenter = CFrame.new(0, 0, 1) * CFrame.Angles(math.rad(90), 0, 0)
+	offset = CFrame.Angles(0, 0, 0)
+
+	_player = {
+		p = game:GetService("Players").LocalPlayer;
+		b = function()
+			return _player.p:FindFirstChild("Backpack")
+		end;
+		c = function()
+			return _player.p.Character
+		end;
+	}
+	_functions = {
+		respawn = function()
+			local c = _player.c()
+			if workspace:FindFirstChild(_player.p.Name) then 
+				spawn(function()
+					wait(.5)
+					if _player.c() ~= workspace:FindFirstChild(_player.p.Name) then
+						workspace:FindFirstChild(_player.p.Name):BreakJoints()
+					end
+				end)
+			end
+			if c then
+				c:BreakJoints()
+				c:ClearAllChildren()
+			end
+			local newChar = Instance.new("Model", workspace)
+			local hum = Instance.new("Humanoid", newChar)
+			local torso = Instance.new("Part", newChar)
+			newChar.Name = "respawn_"
+			torso.Name = "Torso"
+			torso.Transparency = 1
+			_player.p.Character = newChar
+			torso.Name = ""
+			torso.CanCollide = false
+			newChar:MoveTo(Vector3.new(999999, 999999, 999999))
+		end;
+		tools = function(int)
+			local toolamount = int or 200
+
+			local LocalPlayer = game:GetService("Players").LocalPlayer
+			local runservice = game:GetService("RunService")
+			LocalPlayer.Character:FindFirstChild("Humanoid"):UnequipTools()
+			local currentamount = #LocalPlayer.Backpack:GetChildren()
+			LocalPlayer.Character.Archivable = true
+			local tempchar = LocalPlayer.Character:Clone()
+			local lastchar = nil
+			tempchar.Parent = workspace
+			local savepos = LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
+			local renderstepped = runservice.RenderStepped:Connect(function()
+				workspace.CurrentCamera.CameraSubject = tempchar:FindFirstChild("Humanoid")
+				for _, tool in pairs(LocalPlayer.Backpack:GetChildren()) do
+					if tool:IsA("Tool") then
+						tool.Parent = LocalPlayer
+					end
+				end
+				for _, char in pairs(workspace:GetChildren()) do
+					if char.Name == LocalPlayer.Name and char:FindFirstChildWhichIsA("Humanoid") then
+						char.Humanoid.Health = 0
+					end
+				end
+				LocalPlayer.Character:ClearAllChildren()
+				local char = Instance.new("Model", workspace)
+				Instance.new("Humanoid", char)
+				LocalPlayer.Character = char
+				if lastchar ~= nil then
+					lastchar:Destroy()
+				end
+				repeat runservice.RenderStepped:Wait() until LocalPlayer.Character ~= nil
+				lastchar = char
+			end)
+			repeat runservice.RenderStepped:Wait() until #LocalPlayer:GetChildren() - 3 - currentamount >= toolamount
+			renderstepped:Disconnect()
+			repeat runservice.RenderStepped:Wait() until LocalPlayer.Character:FindFirstChild("HumanoidRootPart") ~= nil
+			lastchar:Destroy()
+
+			utilityElements.Tools.Text = "Done respawning?"
+			repeat runservice.RenderStepped:Wait() until utilityElements.Tools.Text == "Load Tools"
+
+			for _, tool in pairs(LocalPlayer:GetChildren()) do
+				if tool:IsA("Tool") then
+					tool.Parent = LocalPlayer.Backpack
+				end
+			end
+			LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = savepos
+			tempchar:Destroy()
+		end;
+		load = function()
+			local b = _player.b()
+			local c = _player.c()
+			local grip = function(tool, cf)
+				local origin = CFrame.new(cf.p)
+				local x, y, z = cf:toEulerAnglesXYZ()
+				local new = CFrame.Angles(x, y, z)
+				local grip = (origin * new):inverse()
+				tool.Grip = grip
+			end
+			local model = c:WaitForChild("Gunna") -- stupid name choice from what a few months ago?? i have nothing against it i swear
+			local parts = {}
+			wait(1)
+
+			for i, Model in pairs(c:GetChildren()) do
+				if Model:IsA("Model") and Model.Name == "Gunna" then
+					for i, v in pairs(Model:GetDescendants()) do
+						if v:IsA("BasePart") then
+							v.LocalTransparencyModifier = 1
+							if v.Name ~= "Ignore" then
+								table.insert(parts, v)
+							end
+						end
+						if not v:IsA("BasePart") and not v:IsA("JointInstance") and not v:IsA("BodyMover") and not v:isA("Humanoid") and not v:IsA("Model") then
+							v:Remove()
+						end
+					end
+					Model.ChildAdded:Connect(function(c)
+						c.Parent = nil
+					end)
+				end
+			end
+
+			for _, part in pairs(parts) do
+				local m = Instance.new("BlockMesh", part)
+				m.Scale = Vector3.new(0, 0, 0)
+			end
+
+			local tools = b:GetChildren()
+			for i, tool in pairs(tools) do
+				if tool.Parent then
+					wrap(function()
+						tool.Parent = c
+						for i, v in pairs(tool:GetDescendants()) do
+							if v:IsA("Sound") or v:IsA("TouchTransmitter") then
+								v:Destroy()
+							elseif v:IsA("BasePart") then
+								v.Massless = true
+								v.CanCollide = false
+							elseif v:IsA("LocalScript") or v:IsA("Script") then
+								v:Destroy()
+							end
+						end
+
+						if tool:FindFirstChild("Handle") then
+							local handle = tool.Handle
+							local fakeHandle = handle:Clone()
+							fakeHandle.Name = "FakeHandle"
+							fakeHandle.Parent = tool
+							local w = Instance.new("Weld", handle)
+							w.Part0 = fakeHandle
+							w.Part1 = handle
+							handle.Size = Vector3.new(0, 0, 0)
+						end
+
+						tool.Parent = b
+					end)
+				end
+				if (not parts[i]) then
+					tools[i] = nil
+					tool:Destroy()
+				end
+			end
+
+			wait(.2)
+			local amt = #tools
+
+			wrap(function()
+				local connection1
+
+				connection1 = game:GetService("RunService").RenderStepped:Connect(function(step)
+					for i = 1, amt do
+						local tool = tools[i]
+						if parts[i] then
+							tool.Parent = b
+							tool.Parent = c
+						end
+					end
+
+					if _player.c() ~= c or c:FindFirstChildWhichIsA("Humanoid").Health == 0 then
+						connection1:Disconnect()
+					end
+
+					utilityElements.Replicate.Text = ("Replicate (%dfps)"):format(1/step)
+				end)
+			end)
+
+			local connection2
+			connection2 = game:GetService("RunService").Heartbeat:Connect(function()
+				for i = 1, amt do
+					local tool = tools[i]
+					if parts[i] then
+						if parts[i].Transparency ~= 1 then
+							local p = _cframe.toWorldPoint(parts[i].CFrame) * offset
+							grip(tool, p)
+						else
+							local p = _cframe.toWorldPoint(CFrame.new(0, -250, 0))
+							grip(tool, p)
+						end
+					end
+				end
+				if _player.c() ~= c or c:FindFirstChildWhichIsA("Humanoid").Health == 0 then
+					connection2:Disconnect()
+				end
+			end)
+		end;
+	}
+	_cframe = {
+		diff = function(a, b)
+			return (a:Inverse() * b)
+		end;
+		toWorldPoint = function(a)
+			local arm = _player.c():FindFirstChild('Right Arm') or _player.c():FindFirstChild('RightHand')
+			local off = arm.CFrame * gripCenter:Inverse()
+			if arm.Name == "RightHand" then
+				off = arm.CFrame * CFrame.Angles(math.rad(-90), 0, 0)
+			end
+			return _cframe.diff(off, a)
+		end;
+		tween = function(object,style,direction,t,goal)
+			local tweenservice = game:GetService("TweenService")
+			local tweenInfo = TweenInfo.new(t,Enum.EasingStyle[style],Enum.EasingDirection[direction])
+			local tween = tweenservice:Create(object,tweenInfo,goal)
+			tween:Play()
+			return tween
+		end;
+	}
+	scriptList = {
+		Character = {
+			['Titan']			= {"rbxassetid://3600286284", "rbxassetid://3070358214"};
+			['Winged Titan']	= {"rbxassetid://3593786550", "rbxassetid://3070358214"};
+			['Part Surround']	= {"rbxassetid://3546680077", "rbxassetid://3546673786"};
+		},
+		Mechanical = {
+			['Spiderbot']		= {"rbxassetid://3040869607", "rbxassetid://3070355648"};
+			['Drone']			= {"rbxassetid://3074236927", "rbxassetid://3074245958"};
+			['Noise']			= {"rbxassetid://3193712297", "rbxassetid://3070358314"};
+		},
+		Aesthetic = {
+			['Wings']			= {"rbxassetid://3040946714", "rbxassetid://3070358381"};
+			['Tail']			= {"rbxassetid://3041387168", "rbxassetid://3070358314"};
+			['Star Glitcher']	= {"rbxassetid://3074734519", "rbxassetid://3074751071"};
+			['Tentacles']		= {"rbxassetid://3074817074", "rbxassetid://3074820325"};
+		},
+		Weapon = {
+			['Master Hand']		= {"rbxassetid://3040943596", "rbxassetid://3070358267"};
+			['Ravenger']		= {"rbxassetid://3040945482", "rbxassetid://3070358154"};
+		},
+	}
+	wrap = function(f)
+		return coroutine.wrap(f)()
+	end
+
+	if game:GetService("RunService"):IsStudio() then
+		guiLib = require(screenGui.GuiLib)
+	else
+		guiLib = loadstring(screenGui.GuiLib.Source)()
+	end
+
+	for title, tbl in pairs(scriptList) do
+		local frame = pageScripts[title]
+		for name, info in pairs(tbl) do
+			local btn = interactiveButton:Clone()
+			btn.Name = name
+			btn.Text = name
+			btn.Parent = frame.Elements
+			btn.Icon.Image = info[2]
+
+			guiLib.circleInteractive(btn)
+			guiLib.colorInteractive(btn)
+
+			btn.MouseButton1Click:Connect(function()
+				local scr = game:GetObjects(info[1])[1]
+				local source = scr.Source
+
+				if game:GetService("RunService"):IsStudio() == false then
+					for i, v in pairs(scr:GetChildren()) do
+						v.Parent = script
+					end
+					wrap(function()
+						local func = loadstring(source)
+						spawn(func)
+					end)
+				else
+					scr.Disabled = true
+					scr.Parent = _player.c()
+					wait(.1)
+					scr.Disabled = false
+				end
+			end)
+		end
+	end
+
+	repeat wait() until pageLayout.CurrentPage
+
+	guiLib.draggable(mainFrame, titleFrame)
+	for i, v in pairs(toolbar:GetChildren()) do
+		if v:IsA("TextButton") then
+			guiLib.circleInteractive(v, 2, 1)
+			v.MouseButton1Click:Connect(function()
+				pageLayout:JumpTo(pages[v.Name])
+			end)
+			pageLayout.Changed:Connect(function(p)
+				if pageLayout.CurrentPage.Name == v.Name then
+					guiLib.tween(v, "Sine", "Out", .5, {BackgroundColor3 = Color3.fromRGB(255, 118, 26)})
+				else
+					guiLib.tween(v, "Sine", "Out", .5, {BackgroundColor3 = Color3.fromRGB(236, 109, 17)})
+				end
+			end)
+		end
+	end
+
+	for i, v in pairs(utilityElements:GetChildren()) do
+		if v:IsA("TextButton") then
+			guiLib.circleInteractive(v)
+			guiLib.colorInteractive(v)
+		end
+	end
+
+	utilityElements.Reset.MouseButton1Click:Connect(function()
+		local c = _player.c()
+		c.Humanoid.Health = 0
+		wait(.55)
+		for i, v in pairs(c:GetChildren()) do
+			if v:IsA("BackpackItem") then
+				v.Parent = _player.b()
+				v.Parent = _player.p
+			end
+		end
+		repeat wait() until _player.c() ~= c
+		_player.c():WaitForChild("Right Arm")
+		wait(.25)
+		for i, v in pairs(_player.p:GetChildren()) do
+			if v:IsA("Tool") then
+				v.Parent = _player.b()
+			end
+		end
+	end)
+
+	utilityElements.Block.MouseButton1Click:Connect(function()
+		local c = _player.c()
+		for _, v in pairs(c:GetChildren()) do
+			if v:IsA("BackpackItem") then
+				for _, m in pairs(v:GetDescendants()) do
+					if m:IsA("DataModelMesh") then
+						m:Destroy()
+					end
+				end
+			end
+		end
+	end)
+
+	local noclip = false
+	utilityElements.Noclip.MouseButton1Click:Connect(function()
+		noclip = not noclip
+	end)
+
+	utilityElements.Tools.MouseButton1Click:Connect(function()
+		if utilityElements.Tools.Text == "Load Tools" then
+			_functions.tools(120)
+		else
+			utilityElements.Tools.Text = "Load Tools"
+		end
+	end)
+
+	utilityElements.Replicate.MouseButton1Click:Connect(function()
+		_functions.load()
+	end)
+
+	local flipped = 0
+	utilityElements.Flip.MouseButton1Click:Connect(function()
+		flipped = (flipped + 1) % 4
+		if flipped == 0 then
+			offset = CFrame.Angles(0, 0, 0)
+		elseif flipped == 1 then
+			offset = CFrame.Angles(math.rad(90), 0, 0)
+		elseif flipped == 2 then
+			offset = CFrame.Angles(0, math.rad(90), 0)
+		elseif flipped == 3 then
+			offset = CFrame.Angles(0, 0, math.rad(90))
+		end
+	end)
+
+	game:GetService("RunService").Stepped:Connect(function()
+		local c = _player.c()
+		if noclip then
+			local descendants = c:GetDescendants()
+			for i = 1, #descendants do
+				local v = descendants[i]
+				if v:IsA("BasePart") and v.Name ~= "HumanoidRootPart" then
+					v.CanCollide = false
+				end
+			end
+		end
+	end)
+
+	workspace:WaitForChild("S")
+end)
